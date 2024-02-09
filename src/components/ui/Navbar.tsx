@@ -1,18 +1,10 @@
 
-import { useAuthStore } from "../../hooks/useAuthStore";
-import { MiniSidebar } from "./MiniSidebar";
-
-
-
 export const Navbar = () => {
-  
-    
-    
-    
+
   return (
     <>
-        <MiniSidebar/>
-        <div className="flex h-[7%] items-start  w-full md:hidden   ">
+        
+        <div className="flex h-[7%] items-start  w-full   ">
             <div className="w-full h-12  bg-zinc-800 flex items-center justify-between" >
                 <div className="w-32 h-full flex justify-center items-center" >
                     

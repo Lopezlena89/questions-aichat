@@ -19,13 +19,13 @@ export const App = () => {
     <HashRouter>
       <Routes>
          
-              (
-                <>
-                  <Route path='/' element={<HomePage/>}/>
-                 
-                  <Route path="/*" element={<Navigate to='/'/>}/>
-                </>
-              )
+        (
+          <>
+            <Route path='/' element={<HomePage/>}/>
+            
+            <Route path="/*" element={<Navigate to='/'/>}/>
+          </>
+        )
        
           
           
